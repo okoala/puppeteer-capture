@@ -1,0 +1,411 @@
+{
+  "config": {
+    "session": {
+      "maxAge": 86400000,
+      "key": "EGG_SESS",
+      "httpOnly": true,
+      "encrypt": true,
+      "overwrite": true,
+      "signed": true,
+      "encode": "<Function encode>",
+      "decode": "<Function decode>",
+      "genid": "<Function anonymous>"
+    },
+    "jsonp": {
+      "limit": 50,
+      "callback": [
+        "_callback",
+        "callback"
+      ],
+      "csrf": false
+    },
+    "onerror": {
+      "errorPageUrl": "",
+      "appErrorFilter": null
+    },
+    "i18n": {
+      "defaultLocale": "en_US",
+      "dirs": [
+        "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-session/config/locales",
+        "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-jsonp/config/locales",
+        "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-onerror/config/locales",
+        "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-i18n/config/locales",
+        "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-watcher/config/locales",
+        "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-multipart/config/locales",
+        "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-development/config/locales",
+        "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-schedule/config/locales",
+        "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-logrotator/config/locales",
+        "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-static/config/locales",
+        "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-view/config/locales",
+        "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/locales",
+        "/Users/okoala/projj/github.com/okoala/puppeteer-capture/config/locales"
+      ],
+      "queryField": "locale",
+      "cookieField": "locale",
+      "cookieMaxAge": "1y",
+      "functionName": "__"
+    },
+    "watcher": {
+      "type": "development",
+      "eventSources": {
+        "default": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-watcher/lib/event-sources/default",
+        "development": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-watcher/lib/event-sources/development"
+      }
+    },
+    "multipart": {
+      "autoFields": false,
+      "defaultCharset": "utf8",
+      "fieldNameSize": 100,
+      "fieldSize": 102400,
+      "fields": 10,
+      "fileSize": 10485760,
+      "files": 10,
+      "fileExtensions": [],
+      "whitelist": null
+    },
+    "development": {
+      "watchDirs": [],
+      "ignoreDirs": [],
+      "fastReady": false,
+      "reloadOnDebug": true,
+      "overrideDefault": false
+    },
+    "customLogger": {
+      "scheduleLogger": {
+        "consoleLevel": "NONE",
+        "file": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/logs/puppeteer-capture/egg-schedule.log"
+      }
+    },
+    "logrotator": {
+      "filesRotateByHour": null,
+      "hourDelimiter": "-",
+      "filesRotateBySize": null,
+      "maxFileSize": 52428800,
+      "maxFiles": 10,
+      "rotateDuration": 60000,
+      "maxDays": 31
+    },
+    "static": {
+      "prefix": "/public/",
+      "dir": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/app/public",
+      "dynamic": true,
+      "preload": false,
+      "buffer": false,
+      "maxFiles": 1000,
+      "files": "<LRU>"
+    },
+    "view": {
+      "root": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/app/view",
+      "cache": false,
+      "defaultExtension": ".html",
+      "defaultViewEngine": "",
+      "mapping": {}
+    },
+    "env": "local",
+    "name": "puppeteer-capture",
+    "keys": "<String len: 35>",
+    "proxy": false,
+    "protocolHeaders": "x-forwarded-proto",
+    "ipHeaders": "x-forwarded-for",
+    "hostHeaders": "x-forwarded-host",
+    "pkg": {
+      "name": "puppeteer-capture",
+      "version": "1.0.0",
+      "description": "",
+      "private": true,
+      "dependencies": {
+        "egg": "^2.2.1",
+        "egg-scripts": "^2.5.0",
+        "puppeteer": "^1.0.0"
+      },
+      "devDependencies": {
+        "autod": "^3.0.1",
+        "autod-egg": "^1.0.0",
+        "egg-bin": "^4.3.5",
+        "egg-ci": "^1.8.0",
+        "egg-mock": "^3.14.0",
+        "eslint": "^4.11.0",
+        "eslint-config-egg": "^6.0.0",
+        "webstorm-disable-index": "^1.2.0"
+      },
+      "engines": {
+        "node": ">=8.9.0"
+      },
+      "scripts": {
+        "start": "egg-scripts start --daemon --title=egg-server-puppeteer-capture",
+        "stop": "egg-scripts stop --title=egg-server-puppeteer-capture",
+        "dev": "egg-bin dev",
+        "debug": "egg-bin debug",
+        "test": "npm run lint -- --fix && npm run test-local",
+        "test-local": "egg-bin test",
+        "cov": "egg-bin cov",
+        "lint": "eslint .",
+        "ci": "npm run lint && npm run cov",
+        "autod": "autod"
+      },
+      "ci": {
+        "version": "8"
+      },
+      "repository": {
+        "type": "git",
+        "url": ""
+      },
+      "author": "",
+      "license": "MIT"
+    },
+    "baseDir": "/Users/okoala/projj/github.com/okoala/puppeteer-capture",
+    "HOME": "/Users/okoala",
+    "rundir": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/run",
+    "dump": {
+      "ignore": "<Set>"
+    },
+    "confusedConfigurations": {
+      "bodyparser": "bodyParser",
+      "notFound": "notfound",
+      "sitefile": "siteFile",
+      "middlewares": "middleware",
+      "httpClient": "httpclient"
+    },
+    "notfound": {
+      "pageUrl": ""
+    },
+    "siteFile": {
+      "/favicon.ico": "<Buffer len: 14191>"
+    },
+    "bodyParser": {
+      "enable": true,
+      "encoding": "utf8",
+      "formLimit": "100kb",
+      "jsonLimit": "100kb",
+      "strict": true,
+      "queryString": {
+        "arrayLimit": 100,
+        "depth": 5,
+        "parameterLimit": 1000
+      },
+      "returnRawBody": true
+    },
+    "logger": {
+      "dir": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/logs/puppeteer-capture",
+      "encoding": "utf8",
+      "env": "local",
+      "level": "INFO",
+      "consoleLevel": "INFO",
+      "disableConsoleAfterReady": false,
+      "outputJSON": false,
+      "buffer": true,
+      "appLogName": "puppeteer-capture-web.log",
+      "coreLogName": "egg-web.log",
+      "agentLogName": "egg-agent.log",
+      "errorLogName": "common-error.log",
+      "coreLogger": {
+        "consoleLevel": "WARN"
+      },
+      "allowDebugAtProd": true,
+      "type": "application"
+    },
+    "httpclient": {
+      "enableDNSCache": false,
+      "dnsCacheMaxLength": 1000,
+      "dnsCacheMaxAge": 10000,
+      "request": {
+        "timeout": 5000
+      },
+      "httpAgent": {
+        "keepAlive": true,
+        "freeSocketKeepAliveTimeout": 4000,
+        "maxSockets": 9007199254740991,
+        "maxFreeSockets": 256
+      },
+      "httpsAgent": {
+        "keepAlive": true,
+        "freeSocketKeepAliveTimeout": 4000,
+        "maxSockets": 9007199254740991,
+        "maxFreeSockets": 256
+      }
+    },
+    "meta": {
+      "enable": true,
+      "logging": false
+    },
+    "coreMiddleware": [
+      "meta",
+      "siteFile",
+      "notfound",
+      "static",
+      "bodyParser",
+      "overrideMethod",
+      "session",
+      "i18n"
+    ],
+    "workerStartTimeout": 600000,
+    "cluster": {
+      "listen": {
+        "path": "",
+        "port": 15346,
+        "hostname": "127.0.0.1"
+      }
+    },
+    "clusterClient": {
+      "responseTimeout": 60000
+    },
+    "middleware": [],
+    "coreMiddlewares": [
+      "meta",
+      "siteFile",
+      "notfound",
+      "static",
+      "bodyParser",
+      "overrideMethod",
+      "session",
+      "i18n"
+    ],
+    "appMiddlewares": [],
+    "appMiddleware": [],
+    "multipartParseOptions": {
+      "autoFields": false,
+      "defCharset": "utf8",
+      "limits": {
+        "fieldNameSize": 100,
+        "fieldSize": 102400,
+        "fields": 10,
+        "fileSize": 10485760,
+        "files": 10
+      },
+      "checkFile": "<Function checkFile>"
+    }
+  },
+  "plugins": {
+    "session": {
+      "enable": true,
+      "package": "egg-session",
+      "name": "session",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/plugin.js",
+      "path": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-session",
+      "version": "3.1.0"
+    },
+    "jsonp": {
+      "enable": true,
+      "package": "egg-jsonp",
+      "name": "jsonp",
+      "dependencies": [],
+      "optionalDependencies": [
+        "security"
+      ],
+      "env": [],
+      "from": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/plugin.js",
+      "path": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-jsonp",
+      "version": "2.0.0"
+    },
+    "onerror": {
+      "enable": true,
+      "package": "egg-onerror",
+      "name": "onerror",
+      "dependencies": [],
+      "optionalDependencies": [
+        "jsonp"
+      ],
+      "env": [],
+      "from": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/plugin.js",
+      "path": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-onerror",
+      "version": "2.0.0"
+    },
+    "i18n": {
+      "enable": true,
+      "package": "egg-i18n",
+      "name": "i18n",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/plugin.js",
+      "path": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-i18n",
+      "version": "2.0.0"
+    },
+    "watcher": {
+      "enable": true,
+      "package": "egg-watcher",
+      "name": "watcher",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/plugin.js",
+      "path": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-watcher",
+      "version": "3.0.0"
+    },
+    "multipart": {
+      "enable": true,
+      "package": "egg-multipart",
+      "name": "multipart",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/plugin.js",
+      "path": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-multipart",
+      "version": "2.0.0"
+    },
+    "development": {
+      "enable": true,
+      "package": "egg-development",
+      "name": "development",
+      "dependencies": [
+        "watcher"
+      ],
+      "optionalDependencies": [],
+      "env": [
+        "local"
+      ],
+      "from": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/plugin.js",
+      "path": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-development",
+      "version": "2.2.0"
+    },
+    "schedule": {
+      "enable": true,
+      "package": "egg-schedule",
+      "name": "schedule",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/plugin.js",
+      "path": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-schedule",
+      "version": "3.2.0"
+    },
+    "logrotator": {
+      "enable": true,
+      "package": "egg-logrotator",
+      "name": "logrotator",
+      "dependencies": [
+        "schedule"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/plugin.js",
+      "path": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-logrotator",
+      "version": "3.0.1"
+    },
+    "static": {
+      "enable": true,
+      "package": "egg-static",
+      "name": "static",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/plugin.js",
+      "path": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-static",
+      "version": "2.1.0"
+    },
+    "view": {
+      "enable": true,
+      "package": "egg-view",
+      "name": "view",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/plugin.js",
+      "path": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-view",
+      "version": "2.0.0"
+    }
+  }
+}

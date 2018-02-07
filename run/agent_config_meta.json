@@ -1,0 +1,217 @@
+{
+  "keys": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "port": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/config/config.default.js",
+      "hostname": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/config/config.default.js",
+      "path": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js"
+    }
+  },
+  "middleware": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/config/config.default.js",
+  "session": {
+    "maxAge": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-session/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "multipart": {
+    "autoFields": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-multipart/config/config.default.js"
+  },
+  "development": {
+    "watchDirs": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-development/config/config.default.js"
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+  "name": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+    "version": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+    "description": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+    "private": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+    "dependencies": {
+      "egg": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+      "puppeteer": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+      "webstorm-disable-index": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+      "stop": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+      "dev": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+      "debug": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+      "test": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+      "cov": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+      "lint": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+      "ci": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+      "autod": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+      "url": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+    "license": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+    "strict": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+      "depth": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+    "env": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+    "level": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxAge": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+    "logging": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js",
+  "clusterClient": {
+    "responseTimeout": "/Users/okoala/projj/github.com/okoala/puppeteer-capture/node_modules/egg/config/config.default.js"
+  }
+}
