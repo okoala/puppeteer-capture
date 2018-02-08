@@ -30,7 +30,7 @@ class CaptureController extends Controller {
     if (!selector) throw Error('Please provide a selector.');
     if (!path && !html) throw Error('Please provide a path or html.');
 
-    await page.goto(decodeURIComponent(path), {
+    await page.goto(path, {
       waitUntil: 'networkidle2',
     });
 
